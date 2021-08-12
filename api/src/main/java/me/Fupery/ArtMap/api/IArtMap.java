@@ -10,10 +10,10 @@ import me.Fupery.ArtMap.api.Utils.VersionHandler;
 
 public interface IArtMap extends Plugin {
 
-	public IArtistHandler getArtistHandler();
-	public VersionHandler getBukkitVersion();
-	public Reader getTextResourceFile(String fileName);
-	public boolean writeResource(String resourcePath, File destination);
+	IArtistHandler getArtistHandler();
+	VersionHandler getBukkitVersion();
+	Reader getTextResourceFile(String fileName);
+	boolean writeResource(String resourcePath, File destination);
 
 }
 
